@@ -19,9 +19,11 @@ public class Attendance
         Frame f=new Frame();
         Button b1=new Button("USER");
         Button b2=new Button("ADMIN");
+        Label l=new Label("Select Type : ");
         
         b1.setBounds(50,120,150,40);
         b2.setBounds(250,120,150,40);
+        l.setBounds(200,40,200,40);
         
          b1.addActionListener(new ActionListener()
          {
@@ -283,11 +285,7 @@ public class Attendance
                            
                        }
                    });
-                  
-                  
-                  
-               
-                 
+                
                   
                   b1.addActionListener(new ActionListener()
                    {
@@ -321,7 +319,7 @@ public class Attendance
              
          });
          
-         f.add(b1);f.add(b2);
+         f.add(b1);f.add(b2);f.add(l);
          
           f.setSize(500,700);
           f.setLayout(null);
