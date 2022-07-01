@@ -18,7 +18,7 @@ public class Attendance
     {
         Frame f=new Frame();
         
-        f.setBackground(Color.gray);
+        f.setBackground(Color.ORANGE);
         
         Button b1=new Button("USER");
         Button b2=new Button("ADMIN");
@@ -42,7 +42,7 @@ public class Attendance
             public void actionPerformed(ActionEvent e)
             {
                  Frame f=new Frame("Attendance");
-                 f.setBackground(Color.lightGray);
+                 f.setBackground(Color.WHITE);
                  
                  Label l=new Label("Attendance Form");
                  l.setForeground(Color.red);
@@ -101,7 +101,7 @@ public class Attendance
                        public void actionPerformed(ActionEvent e)
                        {
                           Frame f=new Frame();
-                          f.setBackground(Color.lightGray);
+                          f.setBackground(Color.YELLOW);
                           
                           
                           Label l=new Label("DATA ENTERED SUCCESSFULLY");
@@ -229,7 +229,7 @@ public class Attendance
              public void actionPerformed(ActionEvent e)
              {
                  Frame f=new Frame("Attendance");
-                 f.setBackground(Color.lightGray);
+                 f.setBackground(Color.yellow);
                  
                  Label l=new Label("Attendance Form");
                  l.setForeground(Color.red);
@@ -287,7 +287,7 @@ public class Attendance
                        public void actionPerformed(ActionEvent e)
                        {
                           Frame f=new Frame();
-                          f.setBackground(Color.lightGray);
+                          f.setBackground(Color.LIGHT_GRAY);
                           
                           Label l=new Label("DATA ENTERED SUCCESSFULLY");
                           
